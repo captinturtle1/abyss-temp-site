@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import Image from 'next/image'
+import Link from 'next/link'
 import { 
   requestAccount,
   getAccount, 
@@ -263,9 +264,9 @@ const Dashboard = () => {
     return (
       <div>
         <nav className="z-[1] fixed ml-20 mt-5 pt-6 px-10">
-          <a href="/" className="flex items-center flex-shrink-0 text-white mr-6">
-            <span className="font-semibold text-xl tracking-tight mr-4">Abyss</span>
-          </a>
+          <Link href="/" className="flex items-center flex-shrink-0 text-white mr-6">
+            <span className="font-semibold text-xl tracking-tight mr-4 cursor-pointer">Abyss</span>
+          </Link>
         </nav>
         <div className="flex justify-center h-screen min-h-[700px] bg-slate-900 overflow-hidden">
           <div className="m-auto">

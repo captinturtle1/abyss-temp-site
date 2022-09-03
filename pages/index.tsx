@@ -7,13 +7,6 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import Landing from '../components/Landing'
-import About from '../components/About'
-import Tools from '../components/Tools'
-import Success from '../components/Success'
-import Team from '../components/Team'
-import Faq from '../components/Faq'
-import Footer from '../components/Footer'
-import Background from '../components/Background'
 
 const Home: NextPage = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,4 +1,4 @@
-export const contractAddress = "";
+export const contractAddress = "0xfbbb17037fd01851dda9fc097748eb3e52a56710";
 
 export const addressesNotLowercase= 
 [

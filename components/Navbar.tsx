@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import LinkNEXT from 'next/link'
 
 const Navbar = ({ toggle }) => {
 
@@ -38,7 +39,8 @@ const Navbar = ({ toggle }) => {
                 </div>
             </div>
             <div className="hidden lg:block">
-                <a href="/dashboard" className="transition-all inline-block text-md px-4 py-2 leading-none rounded text-white bg-blue-300 hover:bg-blue-400 drop-shadow hover:drop-shadow-sm">Dashboard</a>
+              <div className="transition-all inline-block text-md px-4 py-2 leading-none rounded text-white bg-blue-300 hover:bg-blue-400 drop-shadow hover:drop-shadow-sm"><LinkNEXT href="/dashboard" >Dashboard</LinkNEXT></div>
+                
             </div>
         </nav>
     );
